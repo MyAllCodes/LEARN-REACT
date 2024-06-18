@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "JavaScript",
+        "paradigm": "Event-driven, Functional, Imperative",
+        "firstAppeared": 1995,
+        "inventor": "Brendan Eich"
+    },
+    {
+        "id": 2,
+        "name": "Python",
+        "paradigm": "Object-oriented, Imperative, Functional",
+        "firstAppeared": 1991,
+        "inventor": "Guido van Rossum"
+    },
+    {
+        "id": 3,
+        "name": "Java",
+        "paradigm": "Object-oriented, Structured, Imperative",
+        "firstAppeared": 1995,
+        "inventor": "James Gosling"
+    },
+    {
+        "id": 4,
+        "name": "C++",
+        "paradigm": "Procedural, Object-oriented, Generic",
+        "firstAppeared": 1985,
+        "inventor": "Bjarne Stroustrup"
+    },
+    {
+        "id": 5,
+        "name": "Ruby",
+        "paradigm": "Object-oriented, Reflective",
+        "firstAppeared": 1995,
+        "inventor": "Yukihiro Matsumoto"
+    },
+    {
+        "id": 6,
+        "name": "Go",
+        "paradigm": "Concurrent, Functional, Imperative",
+        "firstAppeared": 2009,
+        "inventor": "Robert Griesemer, Rob Pike, Ken Thompson"
+    }
+]

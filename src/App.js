@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import { useEffect, useState } from 'react';
+import data from './data.json';
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import Header from './component/Header';
+import CardDemo from './component/CardDemo';
+import Footer from './component/Footer';
+import Breadcrum from './component/Breadcrum';
+
+
 
 function App() {
+  const [languages, setLanguages] = useState([]);
+  useEffect(() => {
+    setLanguages(data);
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Breadcrum/>
+      <CardDemo languages={languages}></CardDemo>
+      <Footer/>
+    </>
   );
 }
 
