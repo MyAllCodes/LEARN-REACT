@@ -4,41 +4,47 @@
         "name": "JavaScript",
         "paradigm": "Event-driven, Functional, Imperative",
         "firstAppeared": 1995,
-        "inventor": "Brendan Eich"
+        "inventor": "Brendan Eich",
+        "officialWebsite":"https://devdocs.io/javascript/"
     },
     {
         "id": 2,
         "name": "Python",
         "paradigm": "Object-oriented, Imperative, Functional",
         "firstAppeared": 1991,
-        "inventor": "Guido van Rossum"
+        "inventor": "Guido van Rossum",
+        "officialWebsite":"https://www.python.org/"
     },
     {
         "id": 3,
         "name": "Java",
         "paradigm": "Object-oriented, Structured, Imperative",
         "firstAppeared": 1995,
-        "inventor": "James Gosling"
+        "inventor": "James Gosling",
+        "officialWebsite":"https://docs.oracle.com/en/java/"
     },
     {
         "id": 4,
         "name": "C++",
         "paradigm": "Procedural, Object-oriented, Generic",
         "firstAppeared": 1985,
-        "inventor": "Bjarne Stroustrup"
+        "inventor": "Bjarne Stroustrup",
+        "officialWebsite":"https://devdocs.io/cpp/"
     },
     {
         "id": 5,
         "name": "Ruby",
         "paradigm": "Object-oriented, Reflective",
         "firstAppeared": 1995,
-        "inventor": "Yukihiro Matsumoto"
+        "inventor": "Yukihiro Matsumoto",
+        "officialWebsite":"https://www.ruby-lang.org/en/documentation/"
     },
     {
         "id": 6,
         "name": "Go",
         "paradigm": "Concurrent, Functional, Imperative",
         "firstAppeared": 2009,
-        "inventor": "Robert Griesemer, Rob Pike, Ken Thompson"
+        "inventor": "Robert Griesemer, Rob Pike, Ken Thompson",
+        "officialWebsite":"https://go.dev/doc/"
     }
 ]

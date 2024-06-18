@@ -26,7 +26,7 @@ export default function CardDemo({ languages }) {
                   <br />
                   <strong>Inventor:</strong> {language.inventor}
                 </MDBCardText>
-                <MDBBtn>Button</MDBBtn>
+                <MDBBtn href={language.officialWebsite}>Visit</MDBBtn>
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
