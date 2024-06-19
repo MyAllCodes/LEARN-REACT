@@ -10,7 +10,7 @@ import {
   MDBCol
 } from 'mdb-react-ui-kit';
 
-export default function CardDemo({ languages }) {
+export default function Home({ languages }) {
   return (
     <MDBContainer className='mt-4'>
       <MDBRow>
@@ -26,7 +26,7 @@ export default function CardDemo({ languages }) {
                   <br />
                   <strong>Inventor:</strong> {language.inventor}
                 </MDBCardText>
-                <MDBBtn href={language.officialWebsite}>Visit</MDBBtn>
+                <MDBBtn href={language.officialWebsite} target="_blank">Visit</MDBBtn>
               </MDBCardBody>
             </MDBCard>
           </MDBCol>

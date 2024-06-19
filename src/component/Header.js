@@ -10,18 +10,18 @@ import {
   MDBNavbarBrand,
   MDBCollapse
 } from 'mdb-react-ui-kit';
-
+import {
+  Link
+} from "react-router-dom";
 export default function Header() {
-  const [openNavColor, setOpenNavColor] = useState(false);
   const [openNavColorSecond, setOpenNavColorSecond] = useState(false);
-  const [openNavColorThird, setOpenNavColorThird] = useState(false);
 
   return (
     <>
 
       <MDBNavbar expand='lg' dark bgColor='light' >
         <MDBContainer fluid>
-          <MDBNavbarBrand href='#' className='text-muted'>Navbar</MDBNavbarBrand>
+          <MDBNavbarBrand href='#' className='text-muted'><Link to="/home">Learn React</Link></MDBNavbarBrand>
           <MDBNavbarToggler
             className='text-muted'
             type='button'
@@ -37,7 +37,7 @@ export default function Header() {
             <MDBNavbarNav className='me-auto mb-2 mb-lg-0'>
               <MDBNavbarItem className='active'>
                 <MDBNavbarLink aria-current='page' href='#' className='text-muted'>
-                  Home
+                <Link to="/home">Home</Link>
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
