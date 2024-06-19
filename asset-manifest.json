@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/learn-react/static/css/main.1bac69a8.css",
-    "main.js": "/learn-react/static/js/main.5275317a.js",
+    "main.js": "/learn-react/static/js/main.fcb1a254.js",
     "static/js/453.86b2f617.chunk.js": "/learn-react/static/js/453.86b2f617.chunk.js",
     "static/media/fa-solid-900.ttf": "/learn-react/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
     "static/media/fa-brands-400.ttf": "/learn-react/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
@@ -13,11 +13,11 @@
     "static/media/fa-v4compatibility.woff2": "/learn-react/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "index.html": "/learn-react/index.html",
     "main.1bac69a8.css.map": "/learn-react/static/css/main.1bac69a8.css.map",
-    "main.5275317a.js.map": "/learn-react/static/js/main.5275317a.js.map",
+    "main.fcb1a254.js.map": "/learn-react/static/js/main.fcb1a254.js.map",
     "453.86b2f617.chunk.js.map": "/learn-react/static/js/453.86b2f617.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1bac69a8.css",
-    "static/js/main.5275317a.js"
+    "static/js/main.fcb1a254.js"
   ]
 }
