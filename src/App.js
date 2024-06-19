@@ -22,6 +22,10 @@ function App() {
       <Header />
       <Breadcrum/>
       <Routes>
+      <Route
+              path="/"
+              element={<Home languages={languages}/>}
+            ></Route>
             <Route exact
               path="/home"
               element={<Home languages={languages}/>}
