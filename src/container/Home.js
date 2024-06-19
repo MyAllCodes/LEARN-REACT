@@ -9,9 +9,12 @@ import {
   MDBRow,
   MDBCol
 } from 'mdb-react-ui-kit';
+import Breadcrum from '../component/Breadcrum';
 
-export default function Home({ languages }) {
+export default function Home({ languages,routename }) {
   return (
+    <>
+    <Breadcrum routename={routename}/>
     <MDBContainer className='mt-4'>
       <MDBRow>
         {languages.map((language) => (
@@ -32,6 +35,6 @@ export default function Home({ languages }) {
           </MDBCol>
         ))}
       </MDBRow>
-    </MDBContainer>
+    </MDBContainer></>
   );
 }

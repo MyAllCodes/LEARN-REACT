@@ -5,13 +5,13 @@ import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Header from './component/Header';
 import Footer from './component/Footer';
-import Breadcrum from './component/Breadcrum';
 
 import {
   Routes,
   Route
 } from "react-router-dom";
 import Home from './container/Home';
+import ContactUs from './container/ContactUs';
 function App() {
   const [languages, setLanguages] = useState([]);
   useEffect(() => {
@@ -19,16 +19,19 @@ function App() {
   }, []);
   return (
     <>
-      <Header />
-      <Breadcrum/>
+      <Header/>
       <Routes>
       <Route
               path="/"
-              element={<Home languages={languages}/>}
+              element={<Home languages={languages} routename="home"/>}
             ></Route>
             <Route exact
               path="/home"
-              element={<Home languages={languages}/>}
+              element={<Home languages={languages} routename="home"/>}
+            ></Route>
+            <Route exact
+              path="/contactUs"
+              element={<ContactUs routename="contactUs"/>}
             ></Route>
           </Routes>
       
